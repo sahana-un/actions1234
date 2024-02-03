@@ -12,7 +12,7 @@ jobs:
     - name: Create Issue
       uses: actions/github-script@0.11.0
       env:
-        REPO_NAME: ${{ github.repository }}
+        REPO_NAME: ${{ actions1234 }}
       with:
         script: |
           const github = context.github;
